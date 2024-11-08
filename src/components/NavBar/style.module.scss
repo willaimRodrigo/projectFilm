@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    gap: 60%;
+
+    .logo {
+        color: rgb(230, 131, 19);
+    }
+
+    .title {
+        color: rgb(230, 131, 19);
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    .form {
+        display: flex;
+
+        .input {
+            border-radius: 3px 0px 0px 3px;
+            
+        }
+
+        button {
+            border-radius: 0px 3px 3px 0px;
+        }
+    }
+}
