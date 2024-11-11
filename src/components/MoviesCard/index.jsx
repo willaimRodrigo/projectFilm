@@ -14,7 +14,7 @@ export const MoviesCard = ({movie, showLink = true}) => {
             <p>
                 <FaStar /> {movie.vote_avarage}
             </p>
-            {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>}
+            {showLink && <Link className={style.details} to={`/movie/${movie.id}`}>Detalhes</Link>}
         </section>
     )
     
